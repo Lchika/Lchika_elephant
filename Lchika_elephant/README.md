@@ -2,10 +2,14 @@
 2019年社内ロボコン大会ボール運び部門出場ロボット
 
 コード概要
+
 #Lchika_elephant.ino
 ①Arduino setup関数，loop関数を定義．
+
 loop関数内で状態遷移を管理．
+
 ②各状態で行う動作の関数を定義．
+
 
 #Lchika_elephant.h
 各種デファイン，グローバル変数定義．
