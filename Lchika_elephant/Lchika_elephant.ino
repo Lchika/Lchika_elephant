@@ -97,32 +97,7 @@ void loop(){
   static int launch_f = 0;
 
   count = 0;
-
-  //forward_on_line();
-
-  // get_position();
-  // delay(100);
-
-  // digitalWrite(PIN_LED, HIGH);
-  // int left_val = analogRead(A0);
-  // digitalWrite(PIN_LED, LOW);
-  // digitalWrite(PIN_LED, HIGH);
-  // int center_val = analogRead(A1);
-  // digitalWrite(PIN_LED, LOW);
-  // digitalWrite(PIN_LED, HIGH);
-  // int right_val = analogRead(A2);
-  // digitalWrite(PIN_LED, LOW);
-  // Serial.print(left_val);
-  // Serial.print(", ");
-  // Serial.print(center_val);
-  // Serial.print(", ");
-  // Serial.print(right_val);
-  // Serial.println();
-  // delay(100);
-
-  // judge_ball_or_wall();
-  // delay(300);
-
+  
 #if 1
   switch (state) {
     /* スタート位置にいる状態 */
